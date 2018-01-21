@@ -149,7 +149,6 @@ a:link {
     width: 33.33%;
     padding: 10px;
 
-   
 }
 
 /* Clear floats after the columns */
@@ -224,7 +223,7 @@ body {
 .icon {
 	height:200px;
 	width:300px;
-	margin: 25px 30px 25px 30px;
+
 }
 
 .lightbox {
