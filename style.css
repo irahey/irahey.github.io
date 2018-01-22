@@ -56,10 +56,6 @@ body {
 }
 
 
-.icon:hover {
-	/* opacity: 0.5; */
-}
-
 .icon {
 	margin: 12px;
 }
@@ -137,26 +133,6 @@ a:link {
 
 
 }
-.columns {
-	display: flex;
-	flex-flow: row wrap;
-
-}
-/* Create three equal columns that floats next to each other */
-.column {
-	float: center;
-	position: relative;
-    width: 33.33%;
-    padding: 10px;
-
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 
 /*FOOTER*/
@@ -180,11 +156,6 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
-.wrapper {
-	padding: 120px 0 0;
-	text-align: center;
-	margin-bottom: 80px;
-}
 
 .social {
 	display: inline-block;
@@ -219,47 +190,68 @@ body {
 	background: #3e5036;
 }
 
+.columns {
+	display: flex;
+	flex-flow: row wrap;
 
-.icon {
+}
+/* Create three equal columns that floats next to each other */
+.column {
+	position: relative;
+    width: 33.33%;
+    padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.container {
+    position: relative;
 	height:200px;
 	width:300px;
 
 }
 
-.lightbox {
-	/** Default lightbox to hidden */
-	display: none;
-
-	/** Position and style */
-	position: fixed;
-	z-index: 999;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
+.icon {
+  display: block;
+  width: 300px;
+  height: 200px;
 }
 
-.lightbox img {
-	/** Pad the lightbox image */
-	max-width: 90%;
-	max-height: 80%;
-	margin-top: 2%;
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 12px;
+  right: 0;
+  background-color: #963030;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
 }
 
-.lightbox:target {
-	/** Remove default browser outline */
-	outline: none;
-
-	/** Unhide lightbox **/
-	display: block;
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
 }
 
-.caption {
-	font-size: 20px;
-	margin-top: 20px;
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
+
 
 
 .thumb {
@@ -270,7 +262,7 @@ body {
 }
 
 .thumb:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    box-shadow: 0 0 2px 1px rgb(174, 55, 55);
 }
 @media (max-width: 600px) {
     .column {
