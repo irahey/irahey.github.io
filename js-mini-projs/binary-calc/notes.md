@@ -11,8 +11,9 @@ div ids: #btns, #answerdigits OK
 div classes: .btns, .jumbotron OK
 no need to write h1, h3, p  OK
 
+Stage 2: javascript OK
 
-
-STAGE 2
+STAGE 3
 style .jumbotron div: font family, background color
 buttons: color, padding, size
+
