@@ -1,6 +1,5 @@
 # irahey.github.io
-My portfolio website
-
+My portfolio website design was inspired by: https://codepen.io/anyamadison/pen/wGQvRR
 
 My mini projects in Javascript are inspired by the following sources:
 1. Binary Calculator using Javascript and Bootstrap: 
@@ -18,3 +17,4 @@ My mini projects in Javascript are inspired by the following sources:
 6. Country Flag Emoji Search using ReactJS: 
         https://reactjs.org/community/examples.html
         https://unicode.org/emoji/charts/full-emoji-list.html#country-flag  
+
