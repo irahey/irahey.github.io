@@ -81,7 +81,7 @@ $(document).ready(function () {
                     // Change the text in the next button to ask if user wants to play again
                     $(document).find(".nextButton").text("Play Again?");
                     quizOver = true;
-                    location.reload();
+                    
                 }
             }
         } else { // quiz is over and clicked the next button (which now displays 'Play Again?'
@@ -90,6 +90,7 @@ $(document).ready(function () {
             resetQuiz();
             displayCurrentQuestion();
             hideScore();
+            location.reload();
         }
     });
 
