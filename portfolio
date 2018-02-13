@@ -38,8 +38,8 @@ GIT WEBSITE SETUP: https://gist.github.com/deanrather/6d63e9dcdf823957b171
 
 -----------------------------
 FOKUSER PÅ:
-REST APIs and JSON
 Javascript, CSS, PHP
+REST APIs and JSON
 JS frameworks: AngularJS, NodeJS, Jquery, KuteJS, ReactJS
 Data visualization
 
@@ -48,7 +48,11 @@ MINI PROJECTS
 JS and Bootstrap: Binary Calculator  DONE
 JQuery: Quiz game  DONE
 PHP/JQuery: chatroom DONE
-KuteJS: Shapeshifter ONGOING
+KuteJS: Shapeshifter DONE
+    https://codepen.io/chriscoyier/pen/NRwANp
+    https://codepen.io/thednp/pen/bpRRZd
+E-commerce website ONGOING
+
 
 PHP: Mail Server
 
