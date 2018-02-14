@@ -44,21 +44,23 @@ JS frameworks: AngularJS, NodeJS, Jquery, KuteJS, ReactJS
 Data visualization
 
 --------------------------
-MINI PROJECTS
+MINI PROJECTS - DONE
 JS and Bootstrap: Binary Calculator  DONE
 JQuery: Quiz game  DONE
 PHP/JQuery: chatroom DONE
 KuteJS: Shapeshifter DONE
     https://codepen.io/chriscoyier/pen/NRwANp
     https://codepen.io/thednp/pen/bpRRZd
+---------------------------
+MINI PROJECTS - TO DO
+    
 E-commerce website ONGOING
+Emoji Search ONGOING
 
 
 PHP: Mail Server
-
-ReactJS/NodeJS: 
-    >Emoji Search
-    >Cryptcurrency Price Index
+Socket.io chatroom
+Cryptcurrency Price Index
 
 AngularJS
     >Youtube Search Engine: source https://embed.plnkr.co/plunk/3e2txp
